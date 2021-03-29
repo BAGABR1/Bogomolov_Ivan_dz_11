@@ -9,7 +9,7 @@ try:
     member_1 = int(member_1)
     member_2 = int(member_2)
     if member_2 == 0:
-        raise MyError('Делитель равен нулю')
+        raise MyError('Делитель равен нулю ')
 except MyError as mr:
     print(mr)
 except ZeroDivisionError:
